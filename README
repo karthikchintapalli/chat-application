@@ -1,0 +1,12 @@
+Execution:
+1. For the peer that listens and accepts a chat request:
+	./peer <PORT on which server listens>
+
+2. For the peer that starts a server and sends a chat request:
+	./peer <PORT on which its server runs> <IP to connect to> <PORT to connect to>
+
+
+Features:
+1. Half-duplex messaging.
+2. File transfer using both TCP and UDP.
+3. Progress bar showing progress of both sending and receiving on either side.
